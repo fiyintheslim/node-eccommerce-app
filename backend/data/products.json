@@ -1,0 +1,78 @@
+[
+  {
+    "name": "SanDisk ultra 128 gb",
+    "price": "45.89",
+    "description": "Ultra-fast cards to take better pictures and full hs videos with your compact to mid-range point-and-shoot cameras and camcorder. With SanDisk Ultra SDXC UHS-I cards you'll benefit from faster download, higher capacity, and better performance to capture and store 128GB of highr quality pictures and full HD video.",
+    "ratings": 4.5,
+    "images": [
+      {
+        "public_id": "products/tzssnrli3szrdnb4jgge",
+        "url": "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/tzfsnrli3szrdnb4jgge.jpg"
+      }
+    ],
+    "category": "Electronics",
+    "seller": "Ebay",
+    "stock": 50,
+    "numOfReviews": 32,
+    "reviews": []
+  },
+  {
+    "name": "CAN USB FD Adapter (GC-CAN-USB-FD)",
+    "price": "315.00",
+    "description": "Monitor a can network, write a CAN program and communicate with industrial, medical, automotive, or other CAN based devoces. Connect CAN FD and CAN networks to a computer via usb with the CAN USB FD adapter.",
+    "ratings": 1.65,
+    "images": [
+      {
+        "public_id": "products/wmoa49q9e70ze9xtcra2",
+        "url": "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/wmoa49q9e70ze9xtcra2.jpg"
+      }
+    ],
+    "category": "Electronics",
+    "seller": "Amazon",
+    "stock": 11,
+    "numOfReviews": 112,
+    "reviews": []
+  },
+  {
+    "name": "Apple Airpods with charging case",
+    "price": "126.99",
+    "description": "Airpods with charging case: More than 24 hours listen time, up to 18 hours talk time",
+    "ratings": 1.65,
+    "images": [
+      {
+        "public_id": "products/airpods_e5cqqr",
+        "url": "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/airpods_e5cqqr.jpg"
+      }
+    ],
+    "category": "Accessories",
+    "seller": "Amazon",
+    "stock": 1123,
+    "numOfReviews": 6,
+    "reviews": []
+  },
+  {
+    "name": "Kauffman Orchards Homegrown McIntosh Apples",
+    "price": "2.75",
+    "description": "McIntosh is a pretty red/green apple with white flesh Homegrown in Kauffman's orchard in healthy Lancaster County soil. ",
+    "ratings": 5,
+    "images": [
+      {
+        "public_id": "products/wmoa49q9e70ze9xtcra2",
+        "url": "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/wmoa49q9e70ze9xtcra2.jpg"
+      },
+      {
+        "public_id": "products/i0k1wdwi5hrpmzwxvsds",
+        "url": "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/i0k1wdwi5hrpmzwxvsds.jpg"
+      },
+      {
+        "public_id": "products/bshmuo9qisfhz4azvnsd",
+        "url": "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/bshmuo9qisfhz4azvnsd.jpg"
+      }
+    ],
+    "category": "Food",
+    "seller": "Kauffman's Fruit Farm & Market",
+    "stock": 500,
+    "numOfReviews": 1,
+    "reviews": []
+  }
+]
