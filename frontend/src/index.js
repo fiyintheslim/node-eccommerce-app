@@ -5,6 +5,7 @@ import { positions, transitions, Provider as AlertProvider } from "react-alert";
 import AlertTemplate from "react-alert-template-basic";
 
 import App from "./App";
+import ProductDetails from "./components/products/productDetails";
 
 import { Provider } from "react-redux";
 import store from "./store";
@@ -22,6 +23,7 @@ ReactDOM.render(
         <Router>
           <Routes>
             <Route path="/" element={<App />} />
+            <Route path="/product/:id" element={<ProductDetails />} />
           </Routes>
         </Router>
       </AlertProvider>
