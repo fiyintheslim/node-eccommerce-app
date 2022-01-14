@@ -6,6 +6,7 @@ import AlertTemplate from "react-alert-template-basic";
 
 import App from "./App";
 import ProductDetails from "./components/products/productDetails";
+import Login from "./components/user/Login";
 
 import { Provider } from "react-redux";
 import store from "./store";
@@ -23,6 +24,10 @@ ReactDOM.render(
         <Router>
           <Routes>
             <Route path="/" element={<App />} />
+            <Route path="/search" element={<App />}>
+              <Route path="/search/:keyword" element={<App />} />
+            </Route>
+            <Route path="/login" element={<Login />} />
             <Route path="/product/:id" element={<ProductDetails />} />
           </Routes>
         </Router>

@@ -5,18 +5,23 @@ const catchAsyncErrors = require("../middlewares/catchAsyncErrors");
 
 //get all products
 exports.getProducts = async (req, res, next) => {
+  const resPerPage = 10;
   const productCount = await Product.countDocuments();
-  const apiFeatures = new APIFeatures(Product, req.query)
-    .search()
-    .filter()
-    .pagination(3);
+  const apiFeatures = new APIFeatures(Product, req.query).search().filter();
 
-  const products = await apiFeatures.query;
+  let filteredProducts = apiFeatures.query;
+  const filteredProductsCount = filteredProducts.length;
+
+  apiFeatures.pagination(resPerPage);
+
+  let products = await apiFeatures.query;
   // const products = await Product.find();
   res.status(200).json({
     success: true,
     productsCount: products.length,
     products,
+    resPerPage,
+    filteredProductsCount,
   });
 };
 

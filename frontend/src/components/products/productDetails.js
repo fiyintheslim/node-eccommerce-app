@@ -20,10 +20,10 @@ const ProductDetails = () => {
       alert.error(error);
       clearErrors(dispatch);
     }
-  }, [dispatch, error, params.id]);
+  }, [dispatch, error, params.id, alert]);
   return (
     <div>
-      <Metadata title={"Product Details"} />
+      <Metadata title={product.name} />
       {!loading ? (
         <div className="container container-fluid">
           <div className="row f-flex justify-content-around">
